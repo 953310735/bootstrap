@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+		<title>折叠</title>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div id="demo">
+				<div class="card">
+					<div class="card-header">
+						<a href="#collapseone" class="card-link" data-toggle="collapse" data-parent="#demo" >
+							这是第一个展开项</a>
+						</div>
+						<div id="collapseone" class="collapse show">
+							<div class="card-block">
+								hhhhhhhh
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<a href="#collapsetwo" class="collapsed card-link" data-toggle="collapse" data-parent="#demo">这是第二个展开项</a>
+						</div>
+						<div id="collapsetwo" class="collapse">
+							<div class="card-block">
+								xixixixixii
+							</div>
+						</div>
+						
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<a href="#collapsethree" class="card-link" data-toggle="collapse" data-parent="#demo">这是第三个展开项</a>
+						</div>
+						<div id="collapsethree" class="collapse">
+							<div class="collapse-block">
+								喔喔喔哦我
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</body>
+</html>
