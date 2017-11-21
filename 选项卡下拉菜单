@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+		<title>选项卡下拉菜单</title>
+	</head>
+	<body>
+		<div class="container">
+			<ul class="nav nav-tabs">
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link active" data-toggle="dropdown">嘻嘻嘻</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item" >哈哈1</a>
+						<a href="#" class="dropdown-item" >哈哈2</a>
+						<a href="#" class="dropdown-item" >哈哈3</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link" data-toggle="dropdown">哈哈哈</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item" >哈哈1</a>
+						<a href="#" class="dropdown-item" >哈哈2</a>
+						<a href="#" class="dropdown-item" >哈哈3</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
