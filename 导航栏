@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+		<title>导航栏</title>
+	</head>
+	<body>
+		<div class="container">
+			
+		
+		<!--
+        	作者：953310735@qq.com
+        	时间：2017-11-20
+        	描述：导航居中显示
+        -->
+		<ul class="nav justify-content-center" >
+			<li class="nav-item"><a href="#" class="nav-link">首页</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">收藏</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">我的家</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">购物车</a></li>
+		</ul>
+		
+		<!--
+        	作者：953310735@qq.com
+        	时间：2017-11-20
+        	描述：导航向右对其
+        -->
+		<ul class="nav justify-content-end">
+			<li class="nav-item"><a href="#" class="nav-link">首页</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">收藏</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">我的家</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">购物车</a></li>
+		</ul>
+		
+		<!--
+        	作者：953310735@qq.com
+        	时间：2017-11-20
+        	描述：建立垂直导航
+        -->
+		<ul class="nav flex-column">
+			<li class="nav-item"><a href="#" class="nav-link">首页</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">收藏</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">我的家</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">购物车</a></li>
+		</ul>
+		
+		<!--
+        	作者：953310735@qq.com
+        	时间：2017-11-20
+        	描述：将导航转换为选项卡
+        -->
+		<ul class="nav nav-tabs">
+			<li class="nav-item "><a href="#" class="nav-link active">首页</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">收藏</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">我的家</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">购物车</a></li>
+		</ul>
+		
+		
+		<!--
+        	作者：953310735@qq.com
+        	时间：2017-11-20
+        	描述：胶囊导航
+        -->
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="#" class="nav-link  active">首页</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">收藏</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">我的家</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">购物车</a></li>
+		</ul>
+		
+		<!--
+        	作者：953310735@qq.com
+        	时间：2017-11-20
+        	描述：导航等宽
+        -->
+		<ul class="nav nav-justified">
+			<li class="nav-item"><a href="#" class="nav-link">首页</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">收藏</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">我的家</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">购物车</a></li>
+		</ul>
+		</div>
+		
+	</body>
+</html>
