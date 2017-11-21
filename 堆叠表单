@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+		<title>堆叠表单</title>
+	</head>
+	<body>
+		<div class="container">
+			
+		
+		<form>
+			<div class="form-group">
+				<label for="email">email address:
+				<input type="email" id="email" class="form-control" />
+				</label>
+			</div>
+			<div class="form-group">
+				<label for="pwd">password:
+				<input type="password"  id="pwd" class="form-control" />
+				</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label"> 
+				<input type="checkbox" class="form-check-input" />remember me</label>
+			</div>
+			<div >
+				<input type="button" class="btn btn-primary" value="submit"/>
+			</div>
+		</form>
+		</div>
+	</body>
+</html>
