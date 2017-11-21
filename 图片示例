@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>图片示例</title>
+		<style type="text/css">
+			img{
+				 width: 200px;
+				 height: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			椭圆形的图片:
+		<img src="img/macbook.png" class="rounded-circle"/>
+		缩略图：
+		<img src="img/树林.jpeg" class="img-thumbnail float-left"/>
+		</div>
+		
+		
+	</body>
+</html>
