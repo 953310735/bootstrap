@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+		<title>导航栏的表单与按钮</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+			<form class="form-inline">
+				<span class="input-group-addon bg-white" >
+					嘿嘿
+				</span>
+				<input type="text"  placeholder="Search" class="form-control" />
+				<input type="button" value="Search" class="btn btn-success" />
+			</form>
+		</nav>
+	</body>
+</html>
